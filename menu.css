@@ -191,5 +191,9 @@ p {
   .menu-container p {
     font-size: 10px;
   }
+
+  .explanation-container {
+    margin: 0;
+  }
   
 }
