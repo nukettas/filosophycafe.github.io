@@ -103,7 +103,6 @@ p {
 
 .menu-container p {
   font-size: 14px;
-  /* width: 39ch; */
 }
 
 .sections {
@@ -184,4 +183,13 @@ p {
   .line {
     display: none;
   }
+
+  .menu-container h2 {
+    font-size: 10px;
+  }
+
+  .menu-container p {
+    font-size: 10px;
+  }
+  
 }
