@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/747115770d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Filosophy Pastry and Espresso Bar | Bakery, Coffee, Pastries, Pies
+    </title>
+  </head>
+  <body>
+    <header class="container">
+      <!--Navbar-->
+      <nav class="nav">
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <div class="nav-container">
+          <ul>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="ourfilosophy.html">OUR FILOSOPHY</a></li>
+            <li>
+              <a href="index.html"
+                ><img class="logo" src="logo.png" alt=""
+              /></a>
+            </li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+          </ul>
+        </div>
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+      </nav>
+    </header>
+
+    <section>
+      <div class="full-img" id="fullImgBox">
+        <span onclick="closeFullImg()" class="close-btn">
+          <i class="fa fa-times"></i>
+        </span>
+        <img src="Gallery/almondcroissant.png" id="fullImg" />
+      </div>
+
+      <div class="img-gallery">
+        <img
+          src="Gallery/almondcroissant.png"
+          onclick="openFullImg(this.src)"
+        />
+        <img src="Gallery/cup.png" onclick="openFullImg(this.src)" />
+        <img
+          src="Gallery/girl with coffee.png"
+          onclick="openFullImg(this.src)"
+        />
+        <img src="Gallery/girl.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/4.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/5.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/6.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/7.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/8.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/9.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/10.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/11.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/12.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/13.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/14.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/15.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/16.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/17.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/18.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/19.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/20.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/21.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/22.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/23.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/24.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/25.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/26.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/27.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/28.png" onclick="openFullImg(this.src)" />
+        <img src="Gallery/spinach.png" onclick="openFullImg(this.src)" />
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <div class="footer-container">
+        <h3>STAY CONNECTED</h3>
+        <div class="social">
+          <a href="https://www.facebook.com/FilosophyCafe/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/filosophycafe"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/filosophycafeTO/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <br />
+        <p>
+          Copyright © 2017 Filosophy Pastry and Espresso Bar - All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="gallery.js"></script>
+  </body>
+</html>
